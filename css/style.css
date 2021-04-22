@@ -1,0 +1,16 @@
+.my-footer{
+    margin-top:30px;
+    background: #212529;
+    color: #fff;
+}
+
+.footer-icon , .footer-icon:hover{
+    color: #fff;
+    transition: 0.4s;
+    font-size: 2em;
+}
+
+.footer-icon:hover{
+    color: #3052ee;
+    transform: scale(1.2);
+}
