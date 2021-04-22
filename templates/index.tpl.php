@@ -1,7 +1,17 @@
+<?php
+session_start();
+if (isset($_SESSION['felhasznalo'])) {
+    $belepve = 1;
+} else {
+    $belepve = 0;
+}
+
+?>
 <!doctype html>
 <html lang="hu">
 <head>
-    <title><?= (isset($keres['fent_cim']))? $keres['fent_cim'] : "Hiba"  ?></title>
+
+    <title><?= (isset($keres['fent_cim'])) ? $keres['fent_cim'] : "Hiba" ?></title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -48,14 +58,18 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
 
-                <?php foreach ($oldalak as $url => $oldal) { ?>
-                    <li class="nav-item">
-                        <a class="nav-link <?= ($oldal == $keres) ? 'active' : '' ?>"
-                           href="<?= ($url == '/') ? '.' : ('?oldal=' . $url) ?>">
-                            <?= $oldal['szoveg'] ?>
-                        </a>
-                    </li>
-                <?php } ?>
+                <?php foreach ($oldalak as $url => $oldal) {
+                    if ($oldal['latszik'][$belepve] == 1) {
+                        ?>
+                        <li class="nav-item">
+                            <a class="nav-link <?= ($oldal == $keres) ? 'active' : '' ?>"
+                               href="<?= ($url == '/') ? '.' : ('?oldal=' . $url) ?>">
+                                <?= $oldal['szoveg'] ?>
+                            </a>
+                        </li>
+                        <?php
+                    }
+                } ?>
             </ul>
         </div>
     </div>
