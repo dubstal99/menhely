@@ -54,6 +54,18 @@ $oldalak = array(
         'fent_cim' => 'Kilépés | '.$alapAblakCim,
         'latszik'=> array(0,1)
     ),
+    'kapcsolat' => array(
+        'fajl' => 'kapcsolat',
+        'szoveg' => 'Kapcsolat',
+        'fent_cim' => 'Kapcsolat | '.$alapAblakCim,
+        'latszik'=> array(1,1)
+    ),
+    'tablazat' => array(
+        'fajl' => 'tablazat',
+        'szoveg' => 'Táblázat',
+        'fent_cim' => 'Táblázat | '.$alapAblakCim,
+        'latszik'=> array(1,1)
+    ),
 );
 
 $hiba_oldal = array(

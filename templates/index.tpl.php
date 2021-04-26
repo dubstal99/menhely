@@ -39,11 +39,19 @@ if (isset($_SESSION['felhasznalo'])) {
 
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-sm-4 p-3">
-            <img src="images/logo.jpg" alt="" style="max-width:200px">
+        <div class="col-4 col-sm-4 p-3">
+            <img src="images/logo.jpg" alt="" style="max-width:80%">
         </div>
-        <div class="col-sm-8 p-3 my-auto">
+        <div class="col-8 col-sm-8 p-3 my-auto">
             <h1>Menhely az állatokért</h1>
+            <a href="http://www.menhely.eu/" target="_blank">Eredeti oldal</a>
+            <?php if(isset($_SESSION['felhasznalo'])){ ?>
+                <p>
+                    <?= $_SESSION['felhasznalo']['csaladi_nev'] ?>
+                    <?= $_SESSION['felhasznalo']['uto_nev'] ?>
+                    (<?= $_SESSION['felhasznalo']['fn_nev'] ?>)
+                </p>
+            <?php } ?>
         </div>
     </div>
 </div>

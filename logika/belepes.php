@@ -29,7 +29,9 @@ if (isset($_POST['belep'])) {
                 'fn_nev' => $row['fn_nev'],
                 'email' => $row['email'],
             );
-            
+
+            header("Location: .");
+
         } else {
             $allapot = array(
                 'allapot' => 0,
