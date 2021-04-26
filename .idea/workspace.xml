@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="574544d9-acea-40ab-bc64-6515cf8931aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/logika/kepfel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/fooldal.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/fooldal.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/galeria.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/galeria.tpl.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619083201336</updated>
       <workItem from="1619083202459" duration="10994000" />
-      <workItem from="1619426594713" duration="3625000" />
+      <workItem from="1619426594713" duration="6902000" />
     </task>
     <servers />
   </component>
