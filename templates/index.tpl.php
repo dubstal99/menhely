@@ -40,7 +40,7 @@ if (isset($_SESSION['felhasznalo'])) {
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-4 col-sm-4 p-3">
-            <img src="images/logo.jpg" alt="" style="max-width:80%">
+            <img src="images/logo.jpg" alt="" style="max-width:60%">
         </div>
         <div class="col-8 col-sm-8 p-3 my-auto">
             <h1>Menhely az állatokért</h1>

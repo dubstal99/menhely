@@ -13,6 +13,17 @@
             </div>
         </div>
     </div>
+    <div class="col-lg-6">
+        <div class="card">
+            <video style="width: 100%" controls>
+                <source src="images/csont.mp4" type="video/mp4">
+            </video>
+            <div class="card-body">
+                <h5 class="card-title">Athos és a csont</h5>
+                <p class="card-text">Kecskemét, Menhely <br>örökbefogadott kutyus</p>
+            </div>
+        </div>
+    </div>
 </div>
 
 <hr>
